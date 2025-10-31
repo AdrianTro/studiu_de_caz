@@ -249,6 +249,18 @@
     <p>Pentru a afla mai multe despre gestionarea elementelor din proiectul dumneavoastră, consultați <span class="highlight">Adăugarea elementelor la proiectul dumneavoastră</span> și <span class="highlight">Editarea elementelor din proiectul dumneavoastră</span>.</p>
   </div>
 
+  
+  <script>
+    const links = document.querySelectorAll('.sidebar a');
+    const contentDiv = document.querySelector('.content');
+
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        const newContent = link.getAttribute('data-content');
+        contentDiv.innerHTML = `<h2>${link.textContent}</h2><p>${newContent}</p>`;
+      });
+    });
+  </script>
  
 
 </body>
