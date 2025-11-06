@@ -19,9 +19,15 @@
             <details>
               <summary>Învățarea despre probleme</summary>
               <ul>
+<<<<<<< HEAD
                 <li><a href="#" data-file="Probleme/despre_probleme.html">Despre probleme</a></li>
                 <li><a href="#" data-file="Probleme/ghid_rapid_probleme.html">Ghid rapid pentru problemele GitHub</a></li>
                 <li><a href="#" data-file="Probleme/planificare_urmărire.html">Planificarea și urmărirea muncii pentru echipa sau proiectul dumneavoastră</a></li>
+=======
+                <li><a href="#">Despre probleme</a></li>
+                <li><a href="#">Ghid rapid pentru problemele GitHub</a></li>
+                <li><a href="#">Planificarea și urmărirea muncii pentru echipa sau proiectul dumneavoastră</a></li>
+>>>>>>> ddbcc0ae8dbfd6b56c679bdc9e411ce6fc02cb9e
               </ul>
             </details>
           </li>
@@ -249,6 +255,7 @@
     <p>Pentru a afla mai multe despre gestionarea elementelor din proiectul dumneavoastră, consultați <span class="highlight">Adăugarea elementelor la proiectul dumneavoastră</span> și <span class="highlight">Editarea elementelor din proiectul dumneavoastră</span>.</p>
   </div>
 
+<<<<<<< HEAD
 <script>
   const links = document.querySelectorAll('.sidebar a');
   const contentDiv = document.querySelector('.content');
@@ -376,6 +383,20 @@
 </script>
 
 
+=======
+  
+  <script>
+    const links = document.querySelectorAll('.sidebar a');
+    const contentDiv = document.querySelector('.content');
+
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        const newContent = link.getAttribute('data-content');
+        contentDiv.innerHTML = `<h2>${link.textContent}</h2><p>${newContent}</p>`;
+      });
+    });
+  </script>
+>>>>>>> ddbcc0ae8dbfd6b56c679bdc9e411ce6fc02cb9e
  
 
 </body>
