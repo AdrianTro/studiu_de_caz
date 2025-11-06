@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghid rapid pentru problemele GitHub</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <h1>Ghid rapid pentru problemele GitHub</h1>
+  <p>Urmează acest scurt ghid interactiv pentru a afla despre problemele GitHub.</p>
+
+  <h2>Introducere 🟩</h2>
+  <p>Acest ghid demonstrează cum să utilizați Problemele GitHub pentru a planifica și urmări o lucrare. În acest ghid, veți crea o problemă nouă și o veți împărți în sub-probleme. De asemenea, veți învăța cum să adăugați etichete, tipuri de probleme, etape, persoane desemnate și proiecte pentru a comunica metadate despre problema dvs.</p>
+
+  <h2>Cerințe preliminare 🟩</h2>
+  <p>Pentru a crea o problemă, aveți nevoie de un depozit. Puteți utiliza un depozit existent la care aveți acces de scriere sau puteți crea un depozit nou. Depozitul trebuie să aibă problemele activate. Pentru mai multe informații despre crearea unui depozit, consultați <strong>Crearea unui depozit nou</strong>. Pentru mai multe informații despre activarea problemelor dacă acestea sunt dezactivate în depozitul dvs., consultați <strong>Dezactivarea problemelor</strong>.</p>
+
+  <h2>Deschiderea unei probleme goale 🟩</h2>
+  <p>Mai întâi, creați o problemă. Există mai multe modalități de a crea o problemă; puteți alege metoda cea mai convenabilă pentru fluxul dvs. de lucru. Acest exemplu va utiliza interfața cu utilizatorul GitHub. Pentru mai multe informații despre alte modalități de a crea o problemă, consultați <strong>Crearea unei probleme</strong>.</p>
+
+  <div class="info-box">
+    <h3>Pași pentru crearea unei probleme:</h3>
+    <ol>
+      <li>Pe GitHub, navigați la pagina principală a repozitoriului.</li>
+      <li>Sub numele depozitului, faceți clic pe <strong>Probleme</strong>.</li>
+      <li>Faceți clic pe <strong>Problemă nouă</strong>.</li>
+      <li>În acest exemplu, vom începe cu o problemă goală. Depozitul dvs. poate utiliza șabloane de probleme și formulare de probleme pentru a încuraja contribuitorii să furnizeze informații specifice. Dacă depozitul dvs. utilizează șabloane de probleme, faceți clic pe <strong>Deschide o problemă goală</strong>.</li>
+    </ol>
+  </div>
+
+  <h2>Completarea informațiilor</h2>
+  <p>Dă-i problemei tale un titlu descriptiv. Titlul ar trebui să transmită dintr-o privire despre ce este vorba în problemă.</p>
+  <p>Adăugați o descriere care explică scopul problemei, inclusiv orice detalii care ar putea ajuta la rezolvarea acesteia. De exemplu, dacă este vorba de un raport de eroare, descrieți pașii pentru reproducerea erorii, rezultatul așteptat și rezultatul real.</p>
+  <p>Puteți folosi markdown pentru a adăuga formatare, linkuri, emoji-uri și multe altele. Pentru mai multe informații, consultați <strong>Scrierea pe GitHub</strong>.</p>
+
+  <div class="issue-form">
+    <h3>Create new issue</h3>
+    
+    <div class="form-field">
+      <label>Add a title *</label>
+      <input type="text" value="Update game to use new rendering engine">
+    </div>
+
+    <div class="form-field">
+      <label>Add a description</label>
+      <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <button class="button">Write</button>
+        <button class="button">Preview</button>
+      </div>
+      <textarea>Now that we've decided on our new rendering engine (see #824), we need to update our collision logic to use the engine, build an engine prototype, and update the game logic.</textarea>
+    </div>
+
+    <div class="form-field">
+      <label>Checklist</label>
+      <div class="checkbox-list">
+        <div class="checkbox-item">
+          <input type="checkbox"> #70
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox"> https://github.com/octo-org/octo-repo/issues/1752
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox"> Update aliens and cannon game logic
+        </div>
+      </div>
+    </div>
+
+    <p>🔍 Paste, drop, or click to add files</p>
+
+    <div class="button-group">
+      <button class="button">Create more</button>
+      <button class="button">Cancel</button>
+      <button class="button primary">Create</button>
+    </div>
+  </div>
+
+  <h3>Adăugarea unei liste de sarcini 🔍</h3>
+  <p>De asemenea, puteți utiliza text simplu pentru a urmări activitățile care nu au o problemă corespunzătoare și a le converti ulterior în probleme. Pentru mai multe informații, consultați <strong>Despre listele de activități</strong>.</p>
+
+  <h2>Atribuirea problemei</h2>
+  <p>Pentru a comunica responsabilitatea, puteți atribui problema unui membru al organizației dvs. Consultați <strong>Atribuirea problemelor și a solicitărilor de extragere către alți utilizatori GitHub</strong>.</p>
+
+  <div class="issue-form">
+    <h3>Create new issue</h3>
+    
+    <div class="form-field">
+      <label>Add a title *</label>
+      <input type="text" value="Update game to use new rendering engine">
+    </div>
+
+    <div class="metadata-section">
+      <div class="metadata-item">
+        <label>Assignees</label>
+        <div>No one - Assign yourself</div>
+      </div>
+      
+      <div class="metadata-item">
+        <label>Labels</label>
+        <div>bug, enhancement</div>
+      </div>
+      
+      <div class="metadata-item">
+        <label>Type</label>
+        <div>No type</div>
+      </div>
+      
+      <div class="metadata-item">
+        <label>Projects</label>
+        <div>No projects</div>
+      </div>
+      
+      <div class="metadata-item">
+        <label>Milestone</label>
+        <div>Beta release</div>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <button class="button">Cancel</button>
+      <button class="button primary">Create</button>
+    </div>
+  </div>
+
+  <h2>Adăugarea de etichete</h2>
+  <p>Adăugați o etichetă pentru a clasifica problema. De exemplu, puteți utiliza o <strong>question</strong> etichetă și o <strong>good first issue</strong> etichetă pentru a indica faptul că o problemă este o întrebare pe care un contribuitor începător ar putea-o răspunde. Utilizatorii pot filtra problemele după etichetă pentru a găsi toate problemele care au o anumită etichetă.</p>
+  <p>Puteți utiliza etichetele implicite sau puteți crea o etichetă nouă. Pentru mai multe informații, consultați <strong>Gestionarea etichetelor</strong>.</p>
+
+  <h2>Adăugarea tipurilor de probleme 🔴</h2>
+  <p>Puteți adăuga un tip de problemă pentru a clasifica activitatea în cadrul organizației. Consultați <strong>Gestionarea tipurilor de probleme într-o organizație</strong>.</p>
+
+  <h2>Trimiterea problemei dvs. 🍀</h2>
+  <p>Faceți clic pe <strong>Trimiteți o problemă nouă</strong> pentru a crea problema. Puteți edita oricare dintre câmpurile de mai sus după crearea problemei. Problema dvs. are o adresă URL unică pe care o puteți partaja cu membrii echipei sau pe care o puteți face referire în alte probleme sau solicitări de extragere.</p>
+
+  <h2>Adăugarea de sub-probleme 🍀</h2>
+  <p>Puteți adăuga sub-probleme la o problemă pentru a descompune rapid elemente mai mari de lucru în probleme mai mici. Sub-problemele adaugă suport pentru ierarhii de probleme pe GitHub prin crearea de relații între problemele dvs. Puteți crea mai multe niveluri de sub-probleme care reprezintă cu acuratețe proiectul dvs. prin descompunerea sarcinilor în exact cantitatea de detalii de care aveți nevoie dvs. și echipa dvs. Consultați <strong>Adăugarea de sub-probleme</strong> și <strong>Răsfoirea sub-problemelor</strong>.</p>
+
+  <div class="sub-issues">
+    <div class="sub-issue-item">
+      <input type="checkbox"> Sub-issues ○ 0 of 2
+    </div>
+    <div class="sub-issue-item">
+      <input type="checkbox"> [○] Level design #6 ○ 0 of 2 ⋯
+    </div>
+    <div class="sub-issue-item">
+      <input type="checkbox"> [○] Scoreboard #8 ⋯
+    </div>
+  </div>
+
+  <h3>Adăugarea dependențelor de problemă 🍀</h3>
+  <p>Puteți defini relații de blocare între probleme folosind dependențe de probleme. Dependentele de probleme vă permit să identificați problemele care sunt blocate de sau care blochează alte lucrări. Consultați <strong>Crearea dependentelor de probleme</strong>.</p>
+
+  <h2>Pașii următori</h2>
+  <p>Puteți folosi problemele pentru o gamă largă de scopuri. De exemplu:</p>
+  <ul>
+    <li>Idei de urmărire</li>
+    <li>Colectarea feedback-ului</li>
+    <li>Sarcini de planificare</li>
+    <li>Raportarea erorilor</li>
+  </ul>
+  
+  <p>Pentru a împărți problema în sarcini mai ușor de gestionat, puteți adăuga mai multe niveluri de subprobleme. Consultați <strong>Adăugarea de sub-probleme</strong>.</p>
+  
+  <div class="info-box">
+    <h3>Resurse utile:</h3>
+    <ul>
+      <li>Pentru a afla mai multe despre probleme, consultați <strong>Despre probleme</strong>.</li>
+      <li>Pentru a afla despre elementele esențiale pentru utilizarea instrumentelor de planificare și urmărire GitHub, consultați <strong>Planificarea și urmărirea muncii pentru echipa sau proiectul dvs.</strong></li>
+      <li>Pentru a afla mai multe despre cum vă pot ajuta proiectele la planificare și urmărire, consultați <strong>Învățare despre proiecte</strong>.</li>
+      <li>Pentru a afla mai multe despre utilizarea șabloanelor de probleme și a formularelor de probleme pentru a încuraja contribuitorii să furnizeze informații specifice, consultați <strong>Utilizarea șabloanelor pentru a încuraja probleme utile și solicitări de extragere</strong>.</li>
+    </ul>
+  </div>
+</body>
+</html>
