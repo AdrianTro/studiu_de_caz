@@ -19,15 +19,10 @@
             <details>
               <summary>Învățarea despre probleme</summary>
               <ul>
-<<<<<<< HEAD
+
                 <li><a href="#" data-file="Probleme/despre_probleme.html">Despre probleme</a></li>
                 <li><a href="#" data-file="Probleme/ghid_rapid_probleme.html">Ghid rapid pentru problemele GitHub</a></li>
                 <li><a href="#" data-file="Probleme/planificare_urmărire.html">Planificarea și urmărirea muncii pentru echipa sau proiectul dumneavoastră</a></li>
-=======
-                <li><a href="#">Despre probleme</a></li>
-                <li><a href="#">Ghid rapid pentru problemele GitHub</a></li>
-                <li><a href="#">Planificarea și urmărirea muncii pentru echipa sau proiectul dumneavoastră</a></li>
->>>>>>> ddbcc0ae8dbfd6b56c679bdc9e411ce6fc02cb9e
               </ul>
             </details>
           </li>
@@ -214,48 +209,169 @@
   </div>
   <div class="content">
     <h1>Despre Proiecte</h1>
-    
-    <p>Proiectele este un instrument adaptabil și flexibil pentru planificarea și urmărirea muncii pe GitHub.</p>
-    
-    <h2>Despre Proiecte</h2>
-    
-    <p>Un proiect este un tabel, o tablă și o foaie de parcurs adaptabile care se integrează cu problemele și cererile dumneavoastră de extragere pe GitHub pentru a vă ajuta să vă planificați și să vă urmăriți munca în mod eficient la nivel de utilizator sau organizație. Puteți crea și personaliza mai multe vizualizări prin filtrarea, sortarea, segmentarea și gruparea problemelor și cererilor dumneavoastră de extragere pentru a vă gestiona backlog-urile și cărțile de parcurs ale echipei, să vizualizați munca cu diagrame configurabile, să adăugați câmpuri personalizate pentru a urmări metadate specifice echipei dumneavoastră, să creați șabloane, să partajați actualizări de stare și să vă automatizați proiectele. Mai degrabă decât să impună o metodologie specifică, un proiect oferă caracteristici flexibile pe care le puteți personaliza în funcție de nevoile și procesele echipei dumneavoastră.</p>
-    
-    <div class="info-box">
-      <h3>Începeți acum</h3>
-      <p>Pentru a începe și a crea un proiect, consultați <span class="highlight">Crearea unui proiect</span>. Pentru a afla mai multe despre diferitele aspecte, consultați <span class="highlight">Schimbarea aspectului unei vizualizări</span>.</p>
+
+    <img src="img/3.png" alt="Exemplu GitHub Projects" class="project-image" style="width:100%; max-width:600px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="img/2.png" alt="Exemplu GitHub Projects" class="project-image" style="width:100%; max-width:600px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="img/1.png" alt="Exemplu GitHub Projects" class="project-image" style="width:100%; max-width:600px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+
+    <p><strong>Git</strong> este un sistem de control al versiunilor extrem de popular, folosit pentru a urmări modificările în fișiere și a coordona munca între mai mulți dezvoltatori. Git permite lucrul în echipă fără riscul de a suprascrie munca altora și este indispensabil în proiectele moderne de software.</p>
+
+    <h2>De ce să folosești Git</h2>
+    <ul>
+      <li> <b>Istoric complet al modificărilor:</b> poți vedea exact cine a schimbat ce și când.</li>
+      <li> <b>Colaborare ușoară:</b> mai mulți oameni pot lucra simultan la același proiect.</li>
+      <li> <b>Sigur și fiabil:</b> Git păstrează copii locale ale codului pentru a preveni pierderile.</li>
+      <li> <b>Gestionarea ramurilor:</b> poți dezvolta funcționalități noi fără să afectezi codul stabil.</li>
+      <li> <b>Automatizare și integrare:</b> GitHub permite workflow-uri automate și integrare CI/CD.</li>
+    </ul>
+
+    <h2>Cine folosește Git</h2>
+    <ul>
+      <li> Dezvoltatori software individuali</li>
+      <li>Echipe de dezvoltare de la startup-uri până la corporații mari</li>
+      <li>Studenți și profesori în IT</li>
+      <li>Comunități open-source din întreaga lume</li>
+    </ul>
+
+    <p>Potrivit statisticilor GitHub (2025), peste 100 de milioane de dezvoltatori folosesc Git, iar milioane de proiecte open-source sunt gestionate prin acest sistem.</p>
+
+    <h2>Comenzile Git esențiale</h2>
+    <div class="commands-box" style="background:#f9f9f9; padding:20px; border-radius:10px; margin-top:20px;">
+      <ul>
+        <li><code>git init</code> – creează un nou depozit Git local.</li>
+        <li><code>git clone [link]</code> – copiază un depozit existent pe calculatorul tău.</li>
+        <li><code>git status</code> – afișează modificările efectuate față de ultima versiune salvată.</li>
+        <li><code>git add [fisier]</code> – adaugă fișierul specificat pentru următorul commit.</li>
+        <li><code>git add .</code> – adaugă toate fișierele modificate.</li>
+        <li><code>git commit -m "mesaj"</code> – salvează modificările local cu un mesaj descriptiv.</li>
+        <li><code>git push origin main</code> – trimite modificările către GitHub.</li>
+        <li><code>git pull</code> – aduce ultimele modificări de pe GitHub în depozitul local.</li>
+        <li><code>git branch</code> – afișează ramurile disponibile.</li>
+        <li><code>git checkout nume-ramura</code> – comută pe ramura dorită.</li>
+        <li><code>git checkout -b nume-ramura</code> – creează și comută pe o nouă ramură.</li>
+        <li><code>git merge nume-ramura</code> – combină modificările dintr-o ramură în ramura curentă.</li>
+        <li><code>git log</code> – afișează istoricul commit-urilor.</li>
+        <li><code>git diff</code> – arată diferențele dintre versiuni.</li>
+        <li><code>git remote add origin [link]</code> – leagă depozitul local de unul de pe GitHub.</li>
+      </ul>
     </div>
-    
-    <h3>Rămânerea la curent</h3>
-    
-    <p>Proiectele dumneavoastră sunt construite din problemele și cererile de extragere pe care le adăugați, creând referințe directe între proiectul și munca dumneavoastră. Informațiile sunt sincronizate automat cu proiectul dumneavoastră pe măsură ce faceți modificări, actualizând vizualizările și diagramele dumneavoastră. Această integrare funcționează în ambele sensuri, astfel încât atunci când modificați informațiile despre o cerere de extragere sau o problemă din proiectul dumneavoastră, cererea de extragere sau problema reflectă acele informații. De exemplu, schimbați un atribuit în proiectul dumneavoastră și această modificare este afișată în problema dumneavoastră. Puteți duce această integrare și mai departe, grupați proiectul dumneavoastră după atribuit și faceți modificări la atribuirea problemelor prin tragerea problemelor în diferitele grupuri.</p>
-    
+    <h2>Ceva comenzi Etichete din Git</h2>
+    <p>În Git, etichetele (tags) sunt folosite pentru a marca puncte importante în istoria unui repository, de obicei pentru versiuni de release.</p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>git tag v1.0</h3>
+        <p>Lightweight tag – un fel de bookmark fix pe un commit: </p>
+        
+      </div>
+
+      <div class="feature-card">
+        <h3>git tag -a v1.0 -m "Prima versiune stabilă"
+        </h3>
+        <p>Annotated tag – conține informații suplimentare (autor, dată, mesaj):</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>git tag</h3>
+        <p>Listare etichete existente:</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>git show v1.0</h3>
+        <p>Listare etichete cu detalii:</p>
+      </div>
+      <div class="feature-card">
+        <h3>git tag v1.0</h3>
+        <p>Lightweight tag – un fel de bookmark fix pe un commit: </p>
+        
+      </div>
+
+     
+
+      <div class="feature-card">
+        <h3> git push origin --tags</h3>
+        <p>Listare etichete existente:</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>git tag -a v1.0 commit_hash -m "Mesaj tag"</h3>
+        <p>Listare etichete cu detalii:</p>
+      </div>
+      <div class="feature-card">
+        <h3>git push origin v1.0
+         </h3>
+        <p>Lightweight tag – un fel de bookmark fix pe un commit: </p>
+      </div>
+      <div class="feature-card">
+        <h3>git tag -a v1.0 commit_hash -m "Mesaj tag"</h3>
+        <p>Lightweight tag – un fel de bookmark fix pe un commit: </p>
+      </div>
+     
+    </div>
+
+
+    <h2>Ce este GitHub Projects</h2>
+    <p>GitHub Projects este un instrument care te ajută să organizezi sarcinile și problemele unui proiect. Poți crea tabele, tabele Kanban sau foi de parcurs, și să urmărești progresul fiecărei sarcini. Proiectele se sincronizează cu problemele și pull request-urile, oferind o imagine clară asupra stadiului de dezvoltare.</p>
+
     <div class="feature-grid">
       <div class="feature-card">
         <h3>Planificare flexibilă</h3>
-        <p>Planificați-vă munca cu tabele, table și căi de parcurs adaptabile care se integrează cu problemele și cererile de extragere.</p>
+        <p>Organizează sarcinile echipei tale în tabele și table Kanban adaptabile.</p>
       </div>
-      
+
       <div class="feature-card">
-        <h3>Personalizare</h3>
-        <p>Personalizați-vă proiectele cu filtre, sortări, grupări și câmpuri personalizate pentru a se potrivi nevoilor echipei dumneavoastră.</p>
+        <h3>Colaborare</h3>
+        <p>Atribuie probleme și cereri de extragere colegilor și monitorizează progresul.</p>
       </div>
-      
+
       <div class="feature-card">
         <h3>Automatizare</h3>
-        <p>Automatizați-vă proiectele pentru a vă economisi timp și a vă asigura că munca este actualizată și precisă.</p>
+        <p>Configurează reguli automate pentru mutarea problemelor, actualizarea stadiului și notificări.</p>
       </div>
-      
+
       <div class="feature-card">
         <h3>Vizualizări multiple</h3>
-        <p>Creați și personalizați mai multe vizualizări pentru a vedea munca din diferite perspective și pentru a vă gestiona mai bine backlog-urile și cărțile de parcurs.</p>
+        <p>Creează și personalizează diferite vizualizări pentru a analiza progresul și backlog-ul echipei.</p>
       </div>
     </div>
+
+    <div class="info-box">
+      <h3>Sfaturi utile</h3>
+      <p>Începe cu un proiect simplu, adaugă probleme și atribuie-le echipei. Folosește ramuri pentru a lucra la funcționalități noi și comite frecvent pentru a păstra un istoric clar. Automatizează sarcinile repetitive pentru a economisi timp.</p>
+    </div>
+    <h2>Probleme Intimpinate</h2>
+    <ul>
+      <li>Eu si cu contul meu fac un branch si se pune cu alt cont in cazul meu DanielK016</li>
+    </ul>
+    <img src="img/4.png" alt="Exemplu GitHub Projects" class="project-image" style="width:100%; max-width:600px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
     
-    <p>Pentru a afla mai multe despre gestionarea elementelor din proiectul dumneavoastră, consultați <span class="highlight">Adăugarea elementelor la proiectul dumneavoastră</span> și <span class="highlight">Editarea elementelor din proiectul dumneavoastră</span>.</p>
+   
+
+    
+
+    <h2>Comenzile Git folosit</h2>
+    <div class="commands-box" style="background:#f9f9f9; padding:20px; border-radius:10px; margin-top:20px;">
+      <ul>
+        <li><code>git init</code> – creează un nou depozit Git local.</li>
+        <li><code>git checkout -b studiucas</code> – Crearea branch-ului:</li>
+        <li><code>git status</code> – afișează modificările efectuate față de ultima versiune salvată.</li>
+        <li><code>git add [fisier]</code> – adaugă fișierul specificat pentru următorul commit.</li>
+        <li><code>git add .</code> – adaugă toate fișierele modificate.</li>
+        <li><code>git commit -m "mesaj"</code> – salvează modificările local cu un mesaj descriptiv.</li>
+        <li><code>git push origin master</code> – trimite modificările către GitHub.</li>
+        <li><code>git checkout master</code> – creează și comută pe o nouă ramură.</li>
+        <li><code>git pull</code> – aduce ultimele modificări de pe GitHub în depozitul local.</li>
+        <li><code>git branch</code> – afișează ramurile disponibile.</li>
+        <li><code>git log --oneline</code> – afișează istoricul commit-urilor.</li>
+        <li><code>git reset --hard commit_id_corect</code> –Resetezi branch-ul la commit-ul corect:.</li>
+        <li><code>git push -f origin studiucas</code> </li>
+      </ul>
+    </div>
+
   </div>
 
-<<<<<<< HEAD
+
+
 <script>
   const links = document.querySelectorAll('.sidebar a');
   const contentDiv = document.querySelector('.content');
@@ -381,23 +497,6 @@
     contentDiv.insertBefore(initialBreadcrumb, contentDiv.firstChild);
   });
 </script>
-
-
-=======
-  
-  <script>
-    const links = document.querySelectorAll('.sidebar a');
-    const contentDiv = document.querySelector('.content');
-
-    links.forEach(link => {
-      link.addEventListener('click', () => {
-        const newContent = link.getAttribute('data-content');
-        contentDiv.innerHTML = `<h2>${link.textContent}</h2><p>${newContent}</p>`;
-      });
-    });
-  </script>
->>>>>>> ddbcc0ae8dbfd6b56c679bdc9e411ce6fc02cb9e
- 
 
 </body>
 </html>
